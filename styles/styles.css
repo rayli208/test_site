@@ -1,0 +1,204 @@
+/*
+MAIN COLORS:
+
+    NAVBAR:
+    #004C97
+
+    TITLE/ACTIVE:
+    #00a1b0
+
+    DARK GRAY:
+    #444444
+
+    LIGHT GRAY:
+    #666666
+
+    WHITE:
+    #ffffff
+
+MAIN FONTS:
+
+    font-family: 'Source Sans Pro', sans-serif;
+*/
+
+/*GLOBALS*/
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container-small{
+  padding: 0 3%;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.secondary{
+  color: #00a1b0 !important;
+}
+
+
+/*NAVBAR*/
+.navbar{
+  background-color: #094E95;
+  min-height: 137px;
+}
+
+.navbar img{
+  margin-left: 62px;
+}
+
+.navbar button{
+  background-color: #fff !important;
+}
+
+.nav-item{
+  border-right: 1px solid #fff;
+  margin-left: 25px;
+  font-weight: 300;
+}
+
+.nav-item:last-of-type{
+  border-right: none;
+}
+
+.nav-link p{
+  color: #fff;
+  padding-right: 25px;
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.fas{
+  font-size: 15px;
+}
+
+
+/*MINI NAVBAR*/
+.mini-navbar a{
+  margin-top: 26px;
+  font-size: 16px;
+  color: #666666;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+.mini-navbar .fas{
+  font-size: 30px;
+}
+
+/*MAIN AREA*/
+.main-area{
+  margin-top: 40px;
+}
+
+.main-area .main-text{
+  width: 100%;
+}
+
+.main-area img{
+  width: 100%;
+  max-width: 851px;
+}
+
+.main-area h1{
+  font-size: 30px;
+}
+
+.main-area p{
+  font-size: 18px;
+  color: #666666;
+  padding-top: 21px;
+}
+
+/*REPEATING AREA*/
+.repeating-content{
+  padding-bottom: 130px;
+}
+
+.repeating-content .row{
+  padding-top: 80px;
+}
+
+.repeating-content h3{
+  padding-top: 10px;
+  font-size: 24px;
+  border-top: 2px solid #00a1b0;
+  max-width: 75%;
+  color: #444444;
+}
+.repeating-content .main-icon{
+  padding-top: 10px;
+  font-size: 22px;
+  color: #444444;
+}
+
+.repeating-content p{
+  font-size: 20px;
+  color: #444444;
+  font-weight: 600;
+}
+
+.fa-chevron-right{
+  color: #00a1b0;
+  padding-left: 5px;
+}
+
+/*FOOTER*/
+footer{
+  background-color: #666666;
+  color: #fff;
+  padding-top: 38px;
+  padding-bottom: 32px;
+}
+
+
+
+
+ 
+
+
+/*MANUALLY FIX MOBILE VIEW*/
+@media only screen and (max-width: 768px) {
+  /*NAVBAR*/
+  .navbar img{
+    margin-left: 31px;
+  }
+
+  .navbar p {
+    text-align: center !important;
+  }
+
+  .nav-item{
+    border-right: none;
+  }
+
+  /*MINI NAV*/
+  .mini-navbar{
+    text-align: center;
+  }
+
+  .mini-navbar a{
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  /*MAIN AREA*/
+  .main-area p{
+    padding-top: 5px;
+  }
+
+  /*REPEATING AREA*/
+  .repeating-content{
+    padding-bottom: 60px;
+  }
+
+  .repeating-content .row{
+    padding-top: 30px;
+  }
+
+  .repeating-content h1{
+    padding-bottom: 15px;
+  }
+}
